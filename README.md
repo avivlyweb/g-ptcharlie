@@ -2,49 +2,44 @@
 
 ## AI Chatbot Assistant for Evidence-Based Chronic Back Pain Care
 
-PT Charlie 2.0 is an innovative AI-powered chatbot designed to revolutionize the management of chronic lower back pain (CLBP). It bridges the gap between patients and evidence-based care by providing real-time, personalized assistance.
+Welcome to PT Charlie 2.0, an AI-driven chatbot designed to provide guidance and support for individuals suffering from chronic lower back pain (CLBP). By integrating the latest evidence-based practices, PT Charlie 2.0 offers personalized care and management strategies.
 
 ### Key Features
 
-- **Real-Time EBP Integration:** Utilizes the latest research from PubMed to provide up-to-date care advice.
-- **Conversational Health Analysis:** Engages patients in an empathetic dialogue, understanding their unique health needs.
-- **Seamless Referral Recommendations:** Directs patients to appropriate healthcare providers based on their specific conditions.
-- **Tailored Care Suggestions:** Offers personalized care plans solely based on evidence-based practices.
-- **Personalized Downloadable Exercise Plan:** Provides a weekly exercise schedule downloadable in PDF/CSV formats, complete with visual guides.
-- **Personalized Ergonomics Advice:** Custom tips on chair adjustments, desk height setup, and monitor position to alleviate back pain.
-- **Patient-Centric Approach:** Prioritizes comfort and engagement through a conversational AI that fosters empathy and trust.
+- **Evidence-Based Practice Integration:** Utilizes up-to-date research from reliable sources to offer the best care advice.
+- **Conversational Health Analysis:** Engages users through an empathetic and understanding dialogue, catering to their specific health needs.
+- **Seamless Referral Recommendations:** Guides users to the most suitable healthcare providers based on their condition.
+- **Personalized Care Plans:** Delivers tailored care plans strictly based on evidence-based practices.
+- **Downloadable Exercise Plans:** Provides weekly exercise schedules available for download in PDF/CSV formats, complete with visual aids.
+- **Ergonomics Advice:** Custom tips on workspace adjustments to alleviate back pain.
+- **Patient-Centric Approach:** A conversational AI that prioritizes user comfort and engagement, fostering trust.
 
-### How Does It Work
+### Interactive Demonstrations
 
-PT Charlie 2.0 operates by analyzing patient data using AI algorithms and cross-referencing with a vast database of medical knowledge. It then formulates customized recommendations and care plans, ensuring a patient-centric approach.
+- [PT Charlie 2.0 Chat Interface](https://chat.openai.com/g/g-JtcPFOPJF-g-pt-charlie)
+- [Presentation and Overview](https://storage.googleapis.com/lablab-static-eu/presentations/submissions/clrtmx1lr00193b6tqr8ar49y/clrtmx1lr00193b6tqr8ar49y-1706285540755_my8kt0e7j.pdf)
 
-### Using PT Charlie 2.0
+### Getting Started
 
-To get started with PT Charlie 2.0:
-
-1. Visit [[PT Charlie 2.0 Web Interface](#)](https://chat.openai.com/g/g-JtcPFOPJF-g-pt-charlie) (add the link to your web interface here)
-2. Enter your details and health information as prompted.
-3. Engage with the chatbot to receive your personalized care advice.
+To use PT Charlie 2.0, simply visit the chat interface and start interacting. Input your health information as prompted, and let PT Charlie guide you through personalized chronic back pain management strategies.
 
 ### Technology Stack
 
 - AI and Machine Learning Algorithms
 - PubMed API for medical data
-- Frontend Interaction Technologies (specify if applicable)
+- Frontend Interaction Technologies
 
 ### Contributing
 
-We welcome contributions from the community. To contribute to PT Charlie 2.0, please fork the repository and submit a pull request with your changes.
+Contributions from the community are welcome. To contribute, please fork the repository, make your changes, and submit a pull request.
 
 ### License
 
-PT Charlie 2.0 is released under the [MIT License](LICENSE).
+PT Charlie 2.0 is made available under the [MIT License](LICENSE).
 
 ### Acknowledgments
 
-Developed and designed by Aviv Hidrian at Avivly.
-
-Special thanks to all contributors and advisors who have made this project possible.
+Developed and designed by Aviv Hidrian at Avivly. Special thanks to all contributors and advisors involved in this project.
 
 ---
 
