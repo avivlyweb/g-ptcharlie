@@ -22,7 +22,7 @@ PT Charlie 2.0 operates by analyzing patient data using AI algorithms and cross-
 
 To get started with PT Charlie 2.0:
 
-1. Visit [PT Charlie 2.0 Web Interface](#) (add the link to your web interface here)
+1. Visit [[PT Charlie 2.0 Web Interface](#)](https://chat.openai.com/g/g-JtcPFOPJF-g-pt-charlie) (add the link to your web interface here)
 2. Enter your details and health information as prompted.
 3. Engage with the chatbot to receive your personalized care advice.
 
