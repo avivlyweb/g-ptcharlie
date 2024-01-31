@@ -1,0 +1,83 @@
+openapi: 3.0.0
+info:
+  title: PubMed Search API
+  description: API for searching and retrieving articles from the PubMed database.
+  version: 1.0.0
+servers:
+  - url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+    description: Main PubMed eUtils server
+paths:
+  /esearch.fcgi:
+    get:
+      operationId: runPubmedSearch
+      summary: Search for articles in the PubMed database.
+      parameters:
+        - name: db
+          in: query
+          required: true
+          description: Database to search, 'pubmed' for PubMed database.
+          schema:
+            type: string
+        - name: term
+          in: query
+          required: true
+          description: Search term or query.
+          schema:
+            type: string
+        - name: retmode
+          in: query
+          required: true
+          description: Return mode, set to 'json' for JSON-formatted response.
+          schema:
+            type: string
+        - name: retmax
+          in: query
+          required: false
+          description: Maximum number of records to return.
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Successful response with search results.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  esearchresult:
+                    type: object
+                    properties:
+                      idlist:
+                        type: array
+                        items:
+                          type: string
+  /efetch.fcgi:
+    get:
+      operationId: fetchArticleDetails
+      summary: Fetch details of a specific article from PubMed.
+      parameters:
+        - name: db
+          in: query
+          required: true
+          description: Database to search, 'pubmed' for PubMed database.
+          schema:
+            type: string
+        - name: id
+          in: query
+          required: true
+          description: PubMed article ID.
+          schema:
+            type: string
+        - name: retmode
+          in: query
+          required: true
+          description: Return mode, set to 'xml' for XML-formatted response.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response with article details.
+          content:
+            application/xml:
+              schema:
+                type: string # Placeholder, should be replaced with an actual XML schema if necessary
